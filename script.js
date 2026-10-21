@@ -42,6 +42,11 @@ form.addEventListener('submit', (event) => {
     options.forEach((option) => {
       if (option.checked && option.value === 'true') {
         answers[`answer-${i}`] = option.value;
+        option.closest('.question-item').classList.add('correct');
+      }
+
+      if (option.checked && option.value === 'false') {
+        option.closest('.question-item').classList.add('incorrect');
       }
     });
   }
