@@ -1,10 +1,9 @@
-/*
-  TODO: 2. Select all elements needed
-    * The form element (has the id `quiz-form`)
-    * The answer inputs (have the class `answer`)
-    * BONUS: The questions (have the class `question-item`)
-    * BONUS: The alert (has the id `alert`)
-*/
+// TODO: 2. Select all elements needed
+//   * The form element (has the id `quiz-form`)
+//   * The answer inputs (have the class `answer`)
+//   * BONUS: The questions (have the class `question-item`)
+//   * BONUS: The alert (has the id `alert`)
+
 
 const form = document.querySelector('#quiz-form');
 const answer = document.querySelector('.answer');
