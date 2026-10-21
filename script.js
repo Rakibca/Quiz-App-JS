@@ -6,6 +6,11 @@
     * BONUS: The alert (has the id `alert`)
 */
 
+const form = document.querySelector('#quiz-form');
+const answer = document.querySelector('.answer');
+const question = document.querySelector('.question-item');
+const alert = document.querySelector('#alert');
+
 // TODO: 3. Create a submit event listener for the form that does the following.
 //    1. Prevent the default behaviour
 //    2. Get all selected answers (use the `checked` property on the input to determine if it is selected or not)
