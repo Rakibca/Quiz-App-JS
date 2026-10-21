@@ -20,6 +20,8 @@ const alert = document.querySelector('#alert');
 //    6. BONUS: Make sure unanswered questions show up as incorrect. The easiest way to do this is to add the incorrect class and removing the correct class from all question items before checking the correct answers
 //    7. BONUS: If all answers are correct show the element with the id `alert` and hide it after one second (look into setTimeout) (use the class active to show the alert and remove the class to hide it)
 
+//MY ANSWER:
+
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   console.log('Default behavior prevented!');
@@ -27,13 +29,11 @@ form.addEventListener('submit', (event) => {
   //const temp = document.querySelector('input[name="answer-1"]:checked');
   //console.log(temp);
 
-  /*
-  const answers = {
-    q1: document.querySelector('input[name="answer-1"]:checked')?.value,
-    q2: document.querySelector('input[name="answer-2"]:checked')?.value,
-    q3: document.querySelector('input[name="answer-3"]:checked')?.value,
-  };
-  */
+  // const answers = {
+  //   q1: document.querySelector('input[name="answer-1"]:checked')?.value,
+  //   q2: document.querySelector('input[name="answer-2"]:checked')?.value,
+  //   q3: document.querySelector('input[name="answer-3"]:checked')?.value,
+  // };
 
   const answers = {};
 
