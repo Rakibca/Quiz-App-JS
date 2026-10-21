@@ -72,7 +72,7 @@ form.addEventListener('submit', (e) => {
       questionItem.classList.add('incorrect');
       questionItem.classList.remove('correct');
     }
-    //    7. BONUS: If all answers are correct show the element with the id `alert` and hide it after one second (look into setTimeout) (use the class active to show the alert and remove the class to hide it)
+    //    7. BONUS: If all answers are correct show the element with the id `alert` and hide it after two second (look into setTimeout) (use the class active to show the alert and remove the class to hide it)
 
     const allTrue = checkedAnswers.every((answer) => answer.value === 'true');
     const allAnswered = checkedAnswers.length === questionItems.length;
@@ -81,7 +81,7 @@ form.addEventListener('submit', (e) => {
       alert.classList.add('active');
       setTimeout(() => {
         alert.classList.remove('active');
-      }, 1000);
+      }, 2000);
     }
   });
 });
